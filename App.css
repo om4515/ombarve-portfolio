@@ -1,0 +1,221 @@
+.navbar-brand {
+    font-weight: 700;
+    color: #1a73e8; /* Google Blue for "Om Barve" */
+  }
+
+  .nav-link {
+    color: #6c757d; /* Muted text color */
+    font-weight: 500;
+    margin-left: 1rem;
+  }
+
+  .nav-link:hover {
+    color: #1a73e8;
+  }
+
+  .icon-button {
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  .icon-button:hover {
+    color: #1a73e8;
+  }
+.hero{
+    height: 100vh;
+      min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  
+}
+.hero-content{
+    padding-top: 10%;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .navbar-brand {
+    font-weight: 700;
+    color: #1a73e8;
+  }
+
+  .nav-link {
+    color: #6c757d;
+    font-weight: 500;
+    margin-left: 1rem;
+  }
+
+  .nav-link:hover {
+    color: #1a73e8;
+  }
+
+  .icon-button {
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+
+  .icon-button:hover {
+    color: #1a73e8;
+  }
+
+  .dark-mode {
+    background-color: #121212 !important;
+    color: #f1f1f1 !important;
+  }
+
+  .dark-mode .navbar {
+    background-color: #1e1e1e !important;
+  }
+
+  .dark-mode .nav-link,
+  .dark-mode .navbar-brand,
+  .dark-mode .icon-button {
+    color: #f1f1f1 !important;
+  }
+
+  .dark-mode .nav-link:hover,
+  .dark-mode .icon-button:hover {
+    color: #90caf9 !important;
+  }
+  /* Global dark mode support */
+body.dark-mode {
+    background-color: #0d1117; /* dark background */
+    color: #f1f1f1;            /* light text */
+  }
+  
+  /* About section specific tweaks */
+  .about-section {
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: start;
+    justify-content: center;
+  }
+  
+  .about-icon {
+    font-size: 2rem;
+    color: #1a73e8;
+    margin-right: 0.5rem;
+  }
+  
+  .about-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  /* Optional override in dark mode */
+  body.dark-mode .about-heading {
+    color: #fff;
+  }
+  
+  body.dark-mode .about-text {
+    color: #c9d1d9;
+  }
+  .resume-section {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .resume-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .resume-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .resume-column {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+  }
+  
+  .resume-heading {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .resume-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border-left: 1px solid #d1d5db; /* light gray line */
+  }
+  
+  .resume-dot {
+    position: absolute;
+    left: -6px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #2563eb; /* blue */
+    border-radius: 50%;
+  }
+  
+  .company, .date {
+    color: #6b7280; /* muted gray */
+    font-size: 0.9rem;
+    margin: 2px 0;
+  }
+  
+  .date {
+    float: right;
+  }
+  
+  .description {
+    margin-top: 5px;
+  }
+  
+  .download-section {
+    margin-top: 40px;
+  }
+  
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .download-btn .icon {
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .date {
+      float: none;
+    }
+  }
+  .dark-mode .dark-mode-bg-dark {
+    background-color: #0d1117 !important; /* dark background */
+  }
+  .dark-mode .dark-mode-text-light {
+    color: #ffffff !important; /* light text */
+  }
